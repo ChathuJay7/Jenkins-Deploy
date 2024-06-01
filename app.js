@@ -26,9 +26,9 @@ app.get('/profile', (req,res) => {
     })
 })
 
-app.get('/login', (req,res) => {
+app.get('/auth', (req,res) => {
     res.json({
-        message: "Welcome to Login..!"
+        message: "Welcome to Auth..!"
     })
 })
 
