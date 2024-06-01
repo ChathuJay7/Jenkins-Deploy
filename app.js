@@ -10,7 +10,7 @@ app.get('/', (req,res) => {
 
 app.get('/home', (req,res) => {
     res.json({
-        message: "Welcome to Home..!"
+        message: "Welcome to Home update..!"
     })
 })
 
