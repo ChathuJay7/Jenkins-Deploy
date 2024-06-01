@@ -20,4 +20,10 @@ app.get('/dashboard', (req,res) => {
     })
 })
 
+app.get('/profile', (req,res) => {
+    res.json({
+        message: "Welcome to Profile..!"
+    })
+})
+
 app.listen(3000)
