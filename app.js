@@ -28,7 +28,7 @@ app.get('/profile', (req,res) => {
 
 app.get('/auth', (req,res) => {
     res.json({
-        message: "Welcome to Auth..!"
+        message: "Welcome to Auth...!"
     })
 })
 
