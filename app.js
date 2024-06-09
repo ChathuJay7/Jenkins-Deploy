@@ -32,4 +32,10 @@ app.get('/auth', (req,res) => {
     })
 })
 
+app.get('/change-password', (req,res) => {
+    res.json({
+        message: "Welcome to Change Password...!"
+    })
+})
+
 app.listen(3000)
